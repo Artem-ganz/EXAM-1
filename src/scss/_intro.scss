@@ -1,0 +1,112 @@
+.main {
+    padding-top: 80px;
+}
+
+.intro {
+    height: 862px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container {
+
+        .intro-tittle {
+            text-align: center;
+            margin-bottom: 48px;
+
+            h1 {
+                padding-top: 295px;
+                margin-bottom: 8px;
+            }
+
+            .span-intro {
+                font-family: 'Josefin Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 28px;
+                letter-spacing: 0.31em;
+            }
+        }
+
+
+
+        .search-holder {
+            text-align: center;
+            margin-bottom: 211px;
+        }
+
+        .form-holder {
+            border: 1px solid #fff;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FFFFFF;
+
+           
+            .input {
+                width: calc(100% - 139px);
+                height: 60px;
+                font-family: 'Josefin Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0.2em;
+                color: #999999;
+                border: none;
+                outline: none;
+
+                @include media ('>=768px') {
+                    width: 547px;
+                }
+                @include media ('>=960px') {
+                    width: 647px;
+                }
+            }
+        }
+
+        .btn-form {
+            width: 139px;
+            height: 52px;
+            font-family: 'Aleo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            background-color: #5373FD;
+            padding: 0;
+            border: 0;
+            transition: all .5s ease-in-out .1s;
+
+            &:hover, &:focus, &:active {
+                background-color: #182d8b;
+            }
+
+        }
+
+        .icon-btn {
+            padding-right: 12px;
+        }
+        
+        
+        .scrol-holder {
+            text-align: center;
+
+            .scrol-link {
+                color: #FFFFFF;
+            }
+    
+            p {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+                letter-spacing: 0.2em;
+            }
+        }
+    }
+}

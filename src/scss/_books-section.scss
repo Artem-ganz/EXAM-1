@@ -1,0 +1,39 @@
+.books-section {
+    height: 616px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include media ('>=1024px') {
+        height: 712px;
+    }
+
+    .card-wrapper{
+        padding-top: 120px;
+
+        @include media ('>=1024px') {
+            padding-top: 220px;
+            max-width: 550px;
+            max-height: 372px;
+        }
+    }
+
+    .card-holder {
+        padding: 44px 32px;
+        background: rgba(35, 35, 35, 0.9);
+        border: 0;
+       
+        h3 {
+            font-family: 'Josefin Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            text-transform: uppercase;
+            padding: 16px 0;
+        }
+
+        .btn-holder {
+            padding-top: 28px;
+        }
+    }
+}
